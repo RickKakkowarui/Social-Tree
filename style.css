@@ -36,7 +36,10 @@
   }
 
   .social-icons {
-    margin-top: 4.3rem;    
+    display: flex;    
+    gap: 1.81rem;
+    margin-top: 4.3rem;     
+    justify-content: center;  
   }
 
   .buttons {
@@ -58,6 +61,5 @@
   }
 
   i {
-    font-size: 1.5rem;
-    margin-right: 1.8125rem;          
+    font-size: 1.5rem;         
   }
