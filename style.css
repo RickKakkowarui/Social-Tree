@@ -1,63 +1,62 @@
 :root {
-    --body-bg-color: #FAF7FD;
-    --red: #bb0c0c;
-    
-  }
+  --body-bg-color: #faf7fd;
+  --red: #bb0c0c;
+}
 
-  body {
-    background-color: var(--body-bg-color);
-  }
-  
-  a {
-    text-decoration: none;
-    font: 600 1rem 'Poppins', sans-serif;
-    text-align: center;
-    color: var(--red);    
-  }
+body {
+  background-color: var(--body-bg-color);
+}
 
-  .social-tree {    
-    width: 20rem;
-    margin: 7.875rem auto;   
-    text-align: center;    
-  }
+a {
+  text-decoration: none;
+  font: 600 1rem "Poppins", sans-serif;
+  text-align: center;
+  color: var(--red);
+}
 
-  img {
-    width: 12.5rem;
-    height: 12.5rem;
-    clip-path: circle();
-    border: 0.125rem solid var(--red);
-    padding: 0.375rem;
-    border-radius: 7rem;
-  }
+.social-tree {
+  width: 20rem;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  p {
-    font: 300 1rem 'Poppins', sans-serif;
-    color: var(--red);    
-  }
+img {
+  width: 12.5rem;
+  height: 12.5rem;
+  clip-path: circle();
+  border: 0.125rem solid var(--red);
+  padding: 0.375rem;
+  border-radius: 7rem;
+}
 
-  .social-icons {
-    display: flex;    
-    gap: 1.81rem;
-    margin-top: 4.3rem;     
-    justify-content: center;  
-  }
+p {
+  font: 300 1rem "Poppins", sans-serif;
+  color: var(--red);
+}
 
-  .buttons {
-    margin-top: 2.06rem;
-  }
+.social-icons {
+  display: flex;
+  gap: 1.81rem;
+  margin-top: 4.3rem;
+  justify-content: center;
+}
 
-  button {
-    background-color: var(--body-bg-color);
-    border: 2px solid var(--red);
-    border-radius: 0.25rem;
-    display: block;
-    justify-content: center;
-    margin: 0 auto 1rem;
-    padding: 0.75rem;
-    height: 3.06rem;
-    width: 18rem;
-  }
+.buttons {
+  margin-top: 2.06rem;
+}
 
-  i {
-    font-size: 1.5rem;         
-  }
+button {
+  background-color: var(--body-bg-color);
+  border: 2px solid var(--red);
+  border-radius: 0.25rem;
+  display: block;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  padding: 0.75rem;
+  height: 3.06rem;
+  width: 18rem;
+}
+
+i {
+  font-size: 1.5rem;
+}
